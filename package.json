@@ -1,0 +1,32 @@
+{
+  "name": "js-portfolio",
+  "version": "1.0.0",
+  "description": "A minimal portfolio with Vanilla JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsluismario/js-portfolio.git"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "itsluismario <itsluismario@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsluismario/js-portfolio/issues"
+  },
+  "homepage": "https://github.com/itsluismario/js-portfolio#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "webpack-cli": "^5.0.1"
+  }
+}
