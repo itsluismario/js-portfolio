@@ -1,13 +1,6 @@
-@font-face{
-	font-family: 'Ubuntu';
-	src: url('../assets/fonts/ubuntu-regular.woff2') format('woff2'),
-	url('../assets/fonts/ubuntu-regular.woff') format('woff');
-	font-weight: 400;
-	font-style: normal;
-}
 
 html {
-	font-family: sans-serif;
+	font-family: sohne-var, "Helvetica Neue", Arial, sans-serif;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%
 }
@@ -78,7 +71,6 @@ h1 {
 
 mark {
 	background: #ff0;
-	color: #000
 }
 
 small {
@@ -247,10 +239,12 @@ body {
 	width: 100%;
 	background: #fff;
 	border-radius: 3px;
-	box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+	box-shadow: 0 2px 4px -1px rgb(6 24 44 / 20%);
 	overflow: hidden;
 	text-align: center;
-	z-index: 5
+	z-index: 5;
+	border-radius: 16.5px;
+	
 }
 
 .card:after {
@@ -282,13 +276,11 @@ body {
 }
 
 .card_title {
-	color: #999;
 	font-size: 18px;
 	margin: 0
 }
 
 .card_value {
-	color: #2c2e31;
 	font-size: 38px;
 	margin: 5px;
 	text-transform: capitalize
@@ -342,11 +334,11 @@ body {
 
 @keyframes stroke-draw {
   from {
-    stroke: #8a3ab9;
+    stroke:  #635bff;
     stroke-dasharray: 1;
   }
   to {
-    stroke: #cd486b;
+    stroke: rgb(6 24 44 / 60%);
     transform: rotate(180deg);
     stroke-dasharray: 8;
   }
