@@ -214,10 +214,6 @@ th {
 	padding: 0
 }
 
-body {
-	background-color: #f9f9f9;
-	font-family: Ubuntu, sans-serif;
-}
 
 .center {
 	position: relative;
@@ -255,7 +251,7 @@ body {
 	height: 130px;
 	top: 0;
 	background: #f9f9f9;
-	border-bottom: 1px solid rgba(0, 0, 0, .15);
+	border-bottom: 2px solid  #F9FBFC;
 	z-index: -1
 }
 
@@ -267,7 +263,7 @@ body {
 	height: 190px;
 	border-radius: 50%;
 	margin-bottom: 30px;
-	border: 1px solid rgba(0, 0, 0, .25)
+	border: 1px solid #F9FBFC;
 }
 
 .card_photo img {
@@ -318,9 +314,9 @@ body {
 
 .circle svg {
   fill: none;
-  stroke: #8a3ab9;
+  stroke: rgba(212,130,213,255);
   stroke-linecap: round;
-  stroke-width: 3;
+  stroke-width: 1;
   stroke-dasharray: 1;
   stroke-dashoffset: 0;
   animation: stroke-draw 6s ease-out infinite alternate;
@@ -334,11 +330,11 @@ body {
 
 @keyframes stroke-draw {
   from {
-    stroke:  #635bff;
+    stroke:  rgba(72,207,145,255);
     stroke-dasharray: 1;
   }
   to {
-    stroke: rgb(6 24 44 / 60%);
+    stroke: rgba(78,177,229,255);
     transform: rotate(180deg);
     stroke-dasharray: 8;
   }
