@@ -1,14 +1,10 @@
 # A JS portfolio optimized using Webpack
 
-##Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+##Getting Started 
 
 In the project directory, you can run:
 
 ### `npm start`
 
 ### Project finished
-https://js-portfolio-with-webpack.netlify.app/
+https://js-portfolio-with-webpack.netlify.app
