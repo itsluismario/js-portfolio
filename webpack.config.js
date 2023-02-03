@@ -21,7 +21,7 @@ module.exports = {
   },
   resolve: {
     // Aqui ponemos las extensiones que tendremos en nuestro proyecto para webpack los lea
-    extensions: [".js"],
+    extensions: [".js", '.jsx'],
     alias: {
       '@utils': path.resolve(__dirname,'src/utils/'),
       '@templates': path.resolve(__dirname,'src/templates/'),
@@ -34,7 +34,7 @@ module.exports = {
         rules: 
             [
                 {
-                  test: /\.m?js$/,
+                  test: /\.(js|jsx)$/,
                   exclude: /node_modules/,
                   use: {
                       loader: 'babel-loader'

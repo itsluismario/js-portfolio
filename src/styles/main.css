@@ -292,7 +292,7 @@ th {
 }
 
 .card_social {
-	width: 400px;
+	width: 12em;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -311,6 +311,7 @@ th {
 .circle {
   position: relative;
 }
+
 
 .circle svg {
   fill: none;

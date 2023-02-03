@@ -5,9 +5,10 @@ const getData = async (id) => {
   try {
     const response = await fetch(apiURl);
     const data = await response.json();
-    return data.results[0];
+    const apiResponse = data.results[0]
+    return apiResponse;
   } catch (error) {
-    console.log('Fetch Error', error);
+    console.error("Error on fetch character data " + error?.message);
   };
 };
 
